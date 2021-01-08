@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/styles.css"/>
+
+    <title>Beam Time</title>
+  </head>
+  <body>
+    {% include "header.njk" %}
+    <div class="max-w-screen-xl ml-auto mr-auto">
+    {{ content | safe }}
+    </div>
+    {% include "footer.njk" %}
+  </body>
+</html>

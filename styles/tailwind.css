@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+.prose img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@tailwind utilities;
