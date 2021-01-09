@@ -9,13 +9,11 @@ module.exports = {
         whitelist: [],
       },
     },
-    // theme: {
-    //   extend: {
-    //     colors: {
-    //       change: "black",
-    //     },
-    //   },
-    // },
+    theme: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+      },
+    },
     variants: {},
     plugins: [],
   };
