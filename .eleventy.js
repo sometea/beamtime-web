@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "./_tmp/styles.css": "./styles.css" });
   
     eleventyConfig.addPassthroughCopy("templates/favicon.ico");
+    eleventyConfig.addPassthroughCopy("templates/404.html");
     eleventyConfig.addPassthroughCopy("templates/images");
   
     return {
