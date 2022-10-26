@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("templates/favicon.ico");
     eleventyConfig.addPassthroughCopy("templates/404.html");
     eleventyConfig.addPassthroughCopy("templates/images");
+    eleventyConfig.addPassthroughCopy("templates/fonts");
 
     eleventyConfig.addFilter('markdown', function(value) {
       let markdown = markdownIt({
