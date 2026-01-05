@@ -6,5 +6,5 @@ RUN npm ci
 ADD . .
 RUN npm run build
 
-FROM docker.io/devforth/spa-to-http:latest
-COPY --from=builder /code/_site/ . 
+FROM docker.io/lipanski/docker-static-website:latest
+COPY --from=builder /code/_site/ .
